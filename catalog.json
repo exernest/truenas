@@ -39,6 +39,6 @@
                 "https://www.qbittorrent.org/"
             ],
             "icon_url": "https://media.sys.truenas.net/apps/qbittorrent/icons/icon.png"
-        },
+        }
     }
 }
