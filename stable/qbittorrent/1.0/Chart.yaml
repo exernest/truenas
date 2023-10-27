@@ -1,12 +1,13 @@
-name: ix-chart
-description: A Helm chart for deploying simple workloads Kubernetes
+name: qbittorrent
+description: The qBittorrent project aims to provide an open-source software alternative
+  to µTorrent.
 annotations:
-  title: ix-chart
+  title: qBittorrent
 type: application
-version: 2308.0.1
+version: 1.0
 apiVersion: v2
-appVersion: v1
-kubeVersion: ">=1.16.0-0"
+appVersion: 4.6.0
+kubeVersion: '>=1.16.0-0'
 maintainers:
   - name: truenas
     url: https://www.truenas.com/
@@ -15,7 +16,13 @@ dependencies:
   - name: common
     repository: file://../../../common/2304.0.1
     version: 2304.0.1
-home: https://www.truenas.com/
+home: https://www.qbittorrent.org/
 icon: https://raw.githubusercontent.com/qbittorrent/qBittorrent/master/src/icons/qbittorrent.ico
-keywords: []
-sources: []
+sources:
+  - https://github.com/onedr0p/containers/tree/main/apps/qbittorrent
+  - https://github.com/truenas/charts/tree/master/community/qbittorrent
+  - https://www.qbittorrent.org/
+keywords:
+  - media
+  - torrent
+  - download
