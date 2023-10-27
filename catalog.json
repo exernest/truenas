@@ -3,36 +3,42 @@
     "test": {},
     "stable": {
         "qbittorrent": {
-            "app_readme": "<p>qBittorrent is a cross-platform free and open-source BitTorrent client</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/qbittorrent\">https://truecharts.org/charts/stable/qbittorrent</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+            "app_readme": "<h1>qBittorrent</h1>\n<p>The <a href=\"https://www.qbittorrent.org/\">qBittorrent</a> project aims to provide an open-source software alternative to \u00b5Torrent.</p>\n<blockquote>\n<p>When application is installed, a container will be launched with <strong>root</strong> privileges.\nThis is required in order to apply the correct permissions to the qBittorrent directories.\nAfterward, the <code>qBittorrent</code> container will run as a <strong>non</strong>-root user (Default: <code>568</code>).</p>\n</blockquote>",
             "categories": [
                 "media"
             ],
-            "description": "qBittorrent is a cross-platform free and open-source BitTorrent client",
+            "description": "The qBittorrent project aims to provide an open-source software alternative to \u00b5Torrent.",
             "healthy": true,
             "healthy_error": null,
-            "home": "https://truecharts.org/charts/stable/qbittorrent",
-            "location": "/home/runner/work/catalog/catalog/stable/qbittorrent",
-            "latest_version": "1.0",
-            "latest_app_version": null,
-            "latest_human_version": null,
-            "last_update": null,
+            "home": "https://www.qbittorrent.org/",
+            "location": "/__w/charts/charts/community/qbittorrent",
+            "latest_version": "1.1.0",
+            "latest_app_version": "4.6.0",
+            "latest_human_version": "4.6.0_1.1.0",
+            "last_update": "2023-10-26 15:09:33",
             "name": "qbittorrent",
             "recommended": false,
-            "title": "Qbittorrent",
+            "title": "qBittorrent",
             "maintainers": [
                 {
-                    "email": "ee",
-                    "name": "ee",
-                    "url": "ee"
+                    "name": "truenas",
+                    "url": "https://www.truenas.com/",
+                    "email": "dev@ixsystems.com"
                 }
             ],
-            "tags": [],
-            "screenshots": [],
-            "sources": [
-                "https://github.com/exernest/truenas/tree/main/stable/qbittorrent",
-                "https://github.com/qbittorrent/qBittorrent"
+            "tags": [
+                "torrent",
+                "download"
             ],
-            "icon_url": "https://raw.githubusercontent.com/exernest/truenas/main/img/qbittorrent.ico"
-        }
+            "screenshots": [
+                "https://media.sys.truenas.net/apps/qbittorrent/screenshots/screenshot1.png"
+            ],
+            "sources": [
+                "https://github.com/onedr0p/containers/tree/main/apps/qbittorrent",
+                "https://github.com/truenas/charts/tree/master/community/qbittorrent",
+                "https://www.qbittorrent.org/"
+            ],
+            "icon_url": "https://media.sys.truenas.net/apps/qbittorrent/icons/icon.png"
+        },
     }
 }
