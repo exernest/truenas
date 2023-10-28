@@ -1,7 +1,7 @@
-name: ix-chart
+name: qbittorrent
 description: A Helm chart for deploying simple workloads Kubernetes
 annotations:
-  title: ix-chart
+  title: qbittorrent
 type: application
 version: 2308.0.1
 apiVersion: v2
