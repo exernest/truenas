@@ -21,24 +21,20 @@
             "title": "qBittorrent",
             "maintainers": [
                 {
-                    "name": "truenas",
-                    "url": "https://www.truenas.com/",
-                    "email": "dev@ixsystems.com"
+                    "name": "ernest",
+                    "url": "https://github.com/exernest/truenas/",
+                    "email": "ernest"
                 }
             ],
             "tags": [
                 "torrent",
                 "download"
             ],
-            "screenshots": [
-                "https://media.sys.truenas.net/apps/qbittorrent/screenshots/screenshot1.png"
-            ],
+            "screenshots": [],
             "sources": [
-                "https://github.com/onedr0p/containers/tree/main/apps/qbittorrent",
-                "https://github.com/truenas/charts/tree/master/community/qbittorrent",
                 "https://www.qbittorrent.org/"
             ],
-            "icon_url": "https://media.sys.truenas.net/apps/qbittorrent/icons/icon.png"
+            "icon_url": "https://raw.githubusercontent.com/exernest/truenas/main/img/qbittorrent.ico"
         }
     }
 }
